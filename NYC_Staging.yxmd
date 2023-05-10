@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOHMH_New_York_City_Restaurant_Inspection_Results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="DBA" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BORO" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BUILDING" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="STREET" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="ZIPCODE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="PHONE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="CUISINE DESCRIPTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="INSPECTION DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="ACTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="VIOLATION CODE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="VIOLATION DESCRIPTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="CRITICAL FLAG" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="SCORE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="GRADE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="GRADE DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="RECORD DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="INSPECTION TYPE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Community Board" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Council District" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Census Tract" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BIN" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BBL" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="NTA" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Location Point" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CAMIS" selected="True" />
+            <Field field="DBA" selected="True" />
+            <Field field="BORO" selected="True" />
+            <Field field="BUILDING" selected="True" />
+            <Field field="STREET" selected="True" />
+            <Field field="ZIPCODE" selected="True" />
+            <Field field="PHONE" selected="True" />
+            <Field field="CUISINE DESCRIPTION" selected="True" />
+            <Field field="INSPECTION DATE" selected="True" />
+            <Field field="ACTION" selected="True" />
+            <Field field="VIOLATION CODE" selected="True" />
+            <Field field="VIOLATION DESCRIPTION" selected="True" />
+            <Field field="CRITICAL FLAG" selected="True" />
+            <Field field="SCORE" selected="True" />
+            <Field field="GRADE" selected="True" />
+            <Field field="GRADE DATE" selected="True" />
+            <Field field="RECORD DATE" selected="True" />
+            <Field field="INSPECTION TYPE" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Community Board" selected="True" />
+            <Field field="Council District" selected="True" />
+            <Field field="Census Tract" selected="True" />
+            <Field field="BIN" selected="True" />
+            <Field field="BBL" selected="True" />
+            <Field field="NTA" selected="True" />
+            <Field field="Location Point" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Int32" />
+            <Field name="DBA" size="95" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BORO" size="13" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BUILDING" size="12" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="STREET" size="40" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="PHONE" size="12" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="INSPECTION DATE" size="10" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="ACTION" size="130" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="VIOLATION CODE" size="5" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="VIOLATION DESCRIPTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="CRITICAL FLAG" size="14" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="SCORE" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Byte" />
+            <Field name="GRADE" size="1" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="GRADE DATE" size="10" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="RECORD DATE" size="10" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="INSPECTION TYPE" size="59" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Latitude" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Double" />
+            <Field name="Community Board" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Int16" />
+            <Field name="Council District" size="2" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="Census Tract" size="6" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="BIN" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Int32" />
+            <Field name="BBL" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Int64" />
+            <Field name="NTA" size="4" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="String" />
+            <Field name="Location Point" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="870" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>NYC_Inspection_Result_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="990" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Stage_NYC_Food_Results</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=localhost
+Query=Stage_NYC_Food_Results</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CAMIS" selected="True" />
+            <SelectField field="DBA" selected="True" rename="BUSINESS NAME" size="255" />
+            <SelectField field="BORO" selected="True" />
+            <SelectField field="BUILDING" selected="True" />
+            <SelectField field="STREET" selected="True" />
+            <SelectField field="ZIPCODE" selected="True" />
+            <SelectField field="PHONE" selected="True" />
+            <SelectField field="CUISINE DESCRIPTION" selected="True" size="100" />
+            <SelectField field="INSPECTION DATE" selected="True" />
+            <SelectField field="ACTION" selected="True" size="255" />
+            <SelectField field="VIOLATION CODE" selected="True" type="V_String" size="15" />
+            <SelectField field="VIOLATION DESCRIPTION" selected="True" size="1000" />
+            <SelectField field="CRITICAL FLAG" selected="True" />
+            <SelectField field="SCORE" selected="True" type="Int32" size="4" />
+            <SelectField field="GRADE" selected="True" type="V_String" size="15" />
+            <SelectField field="GRADE DATE" selected="True" />
+            <SelectField field="RECORD DATE" selected="True" />
+            <SelectField field="INSPECTION TYPE" selected="True" size="255" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Community Board" selected="True" />
+            <SelectField field="Council District" selected="True" />
+            <SelectField field="Census Tract" selected="True" />
+            <SelectField field="BIN" selected="True" />
+            <SelectField field="BBL" selected="True" />
+            <SelectField field="NTA" selected="True" />
+            <SelectField field="Location Point" selected="False" type="V_String" size="25" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>INSPECTION DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Modified_Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert INSPECTION DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="498" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>GRADE DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Modified_Grade_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert GRADE DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="606" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>RECORD DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Modified_Record_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert RECORD DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="102" width="276" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Date convert: from  mm/dd/yyyy format</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="738" y="102" width="108" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Added DI_CreateDate &amp; DI_CreateDate</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="81d86797-ffb4-4a5f-b421-1083b56b9272" />
+      <Telemetry>
+        <PreviousWorkflowId value="c8bd5a13-ef2a-4c0c-90e7-2df683cc1caa" />
+        <OriginWorkflowId value="c8bd5a13-ef2a-4c0c-90e7-2df683cc1caa" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

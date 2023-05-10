@@ -1,0 +1,1725 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,
+	_stg_nyc_inspection_results.BBL,
+	_stg_nyc_inspection_results.BIN,
+	_stg_nyc_inspection_results.BORO,
+	_stg_nyc_inspection_results.BUILDING,
+	_stg_nyc_inspection_results.`BUSINESS NAME`,
+	_stg_nyc_inspection_results.CAMIS,
+	_stg_nyc_inspection_results.`Census Tract`,
+	_stg_nyc_inspection_results.`Community Board`,
+	_stg_nyc_inspection_results.`Council District`,
+	_stg_nyc_inspection_results.`CRITICAL FLAG`,
+	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,
+	_stg_nyc_inspection_results.DI_CreateDate,
+	_stg_nyc_inspection_results.DI_WorkflowDirectory,
+	_stg_nyc_inspection_results.DI_WorkflowFileName,
+	_stg_nyc_inspection_results.GRADE,
+	_stg_nyc_inspection_results.`GRADE DATE`,
+	_stg_nyc_inspection_results.`INSPECTION DATE`,
+	_stg_nyc_inspection_results.`INSPECTION TYPE`,
+	_stg_nyc_inspection_results.Latitude,
+	_stg_nyc_inspection_results.Longitude,
+	_stg_nyc_inspection_results.Modified_Grade_Date,
+	_stg_nyc_inspection_results.Modified_Inspection_Date,
+	_stg_nyc_inspection_results.Modified_Record_Date,
+	_stg_nyc_inspection_results.NTA,
+	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,
+	_stg_nyc_inspection_results.PHONE,
+	_stg_nyc_inspection_results.`RECORD DATE`,
+	_stg_nyc_inspection_results.SCORE,
+	_stg_nyc_inspection_results.STREET,
+	_stg_nyc_inspection_results.`VIOLATION CODE`,
+	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,
+	_stg_nyc_inspection_results.ZIPCODE 
+from _stg_nyc_inspection_results</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=localhost
+Query=select _stg_nyc_inspection_r...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ACTION" size="255" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="BBL" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int64" />
+            <Field name="BIN" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int32" />
+            <Field name="BORO" size="13" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="BUILDING" size="12" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="BUSINESS NAME" size="255" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="CAMIS" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int32" />
+            <Field name="Census Tract" size="6" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="Community Board" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int16" />
+            <Field name="Council District" size="2" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="CRITICAL FLAG" size="14" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="CUISINE DESCRIPTION" size="100" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="65535" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="65535" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="GRADE" size="15" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="GRADE DATE" size="10" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="INSPECTION DATE" size="10" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="INSPECTION TYPE" size="255" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="Latitude" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Double" />
+            <Field name="Longitude" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Double" />
+            <Field name="Modified_Grade_Date" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="DateTime" />
+            <Field name="Modified_Inspection_Date" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="DateTime" />
+            <Field name="Modified_Record_Date" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="DateTime" />
+            <Field name="NTA" size="4" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="NYC_Inspection_Result_SK" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int32" />
+            <Field name="PHONE" size="12" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="RECORD DATE" size="10" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+            <Field name="SCORE" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="Int32" />
+            <Field name="STREET" size="40" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="VIOLATION CODE" size="15" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="VIOLATION DESCRIPTION" size="1000" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="V_WString" />
+            <Field name="ZIPCODE" size="5" source="File: odbc:DSN=localhost|||select _stg_nyc_inspection_results.ACTION,&#xA;	_stg_nyc_inspection_results.BBL,&#xA;	_stg_nyc_inspection_results.BIN,&#xA;	_stg_nyc_inspection_results.BORO,&#xA;	_stg_nyc_inspection_results.BUILDING,&#xA;	_stg_nyc_inspection_results.`BUSINESS NAME`,&#xA;	_stg_nyc_inspection_results.CAMIS,&#xA;	_stg_nyc_inspection_results.`Census Tract`,&#xA;	_stg_nyc_inspection_results.`Community Board`,&#xA;	_stg_nyc_inspection_results.`Council District`,&#xA;	_stg_nyc_inspection_results.`CRITICAL FLAG`,&#xA;	_stg_nyc_inspection_results.`CUISINE DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.DI_CreateDate,&#xA;	_stg_nyc_inspection_results.DI_WorkflowDirectory,&#xA;	_stg_nyc_inspection_results.DI_WorkflowFileName,&#xA;	_stg_nyc_inspection_results.GRADE,&#xA;	_stg_nyc_inspection_results.`GRADE DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION DATE`,&#xA;	_stg_nyc_inspection_results.`INSPECTION TYPE`,&#xA;	_stg_nyc_inspection_results.Latitude,&#xA;	_stg_nyc_inspection_results.Longitude,&#xA;	_stg_nyc_inspection_results.Modified_Grade_Date,&#xA;	_stg_nyc_inspection_results.Modified_Inspection_Date,&#xA;	_stg_nyc_inspection_results.Modified_Record_Date,&#xA;	_stg_nyc_inspection_results.NTA,&#xA;	_stg_nyc_inspection_results.NYC_Inspection_Result_SK,&#xA;	_stg_nyc_inspection_results.PHONE,&#xA;	_stg_nyc_inspection_results.`RECORD DATE`,&#xA;	_stg_nyc_inspection_results.SCORE,&#xA;	_stg_nyc_inspection_results.STREET,&#xA;	_stg_nyc_inspection_results.`VIOLATION CODE`,&#xA;	_stg_nyc_inspection_results.`VIOLATION DESCRIPTION`,&#xA;	_stg_nyc_inspection_results.ZIPCODE &#xA;from _stg_nyc_inspection_results" type="WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="162" width="276" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>NYC Dimension Table Integration WorkFlow</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="248" width="186" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DIM_NYC_Borough</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="if isnull([BORO]) then &quot;No Boro&quot; else [BORO] endif" field="BORO" size="13" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="BORO" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="BORO" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>BoroSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Borough</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="BoroSK" Dest="BoroSK" />
+                    <Field Source="BORO" Dest="BORO" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Borough</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="317" y="91" width="204" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DIM_NYC_Food_Places</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="140" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="if isnull([BUSINESS NAME]) then &quot;No DBA&quot; else [BUSINESS NAME] endif" field="BUSINESS NAME" size="255" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="BUSINESS NAME" selected="True" />
+                <SelectField field="CAMIS" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="CAMIS" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="140" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>FoodPlacesSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="738" y="260" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_19528_0f9e39e039d4374cb0f8904724650c19_\Engine_19528_77bef5d6517e664bad1a3461f9d72350~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Food_Places</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="FoodPlacesSK" Dest="FoodPlacesSK" />
+                    <Field Source="BUSINESS NAME" Dest="DBA" />
+                    <Field Source="CAMIS" Dest="CAMIS" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Food_Places</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="380" width="225" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Violation_Codes</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="VIOLATION CODE" selected="True" />
+                <SelectField field="VIOLATION DESCRIPTION" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="VIOLATION CODE" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>ViolationCodeSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Violation_Codes</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ViolationCodeSK" Dest="ViolationCodeSK" />
+                    <Field Source="VIOLATION CODE" Dest="VIOLATION_CODE" />
+                    <Field Source="VIOLATION DESCRIPTION" Dest="VIOLATION_DESCRIPTION" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Violation_Codes</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="332" width="240" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Inspection_Actions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="380" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="380" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ACTION" selected="True" />
+                <SelectField field="VIOLATION DESCRIPTION" selected="False" />
+                <SelectField field="VIOLATION CODE" selected="False" />
+                <SelectField field="SCORE" selected="False" />
+                <SelectField field="RECORD DATE" selected="False" />
+                <SelectField field="PHONE" selected="False" />
+                <SelectField field="NYC_Inspection_Result_SK" selected="False" />
+                <SelectField field="Modified_Record_Date" selected="False" />
+                <SelectField field="Modified_Inspection_Date" selected="False" />
+                <SelectField field="Modified_Grade_Date" selected="False" />
+                <SelectField field="INSPECTION TYPE" selected="False" />
+                <SelectField field="INSPECTION DATE" selected="False" />
+                <SelectField field="GRADE" selected="False" />
+                <SelectField field="DI_WorkflowFileName" selected="False" />
+                <SelectField field="GRADE DATE" selected="False" />
+                <SelectField field="DI_CreateDate" selected="False" />
+                <SelectField field="BUSINESS NAME" selected="False" />
+                <SelectField field="CAMIS" selected="False" />
+                <SelectField field="DI_WorkflowDirectory" selected="False" />
+                <SelectField field="CRITICAL FLAG" selected="False" />
+                <SelectField field="CUISINE DESCRIPTION" selected="False" />
+                <SelectField field="Longitude" selected="False" />
+                <SelectField field="Council District" selected="False" />
+                <SelectField field="Community Board" selected="False" />
+                <SelectField field="Census Tract" selected="False" />
+                <SelectField field="ZIPCODE" selected="False" />
+                <SelectField field="BUILDING" selected="False" />
+                <SelectField field="BORO" selected="False" />
+                <SelectField field="STREET" selected="False" />
+                <SelectField field="BIN" selected="False" />
+                <SelectField field="BBL" selected="False" />
+                <SelectField field="Latitude" selected="False" />
+                <SelectField field="NTA" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="380" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="ACTION" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="380" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>ActionSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="380" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Inspection_Actions</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ActionSK" Dest="ActionSK" />
+                    <Field Source="ACTION" Dest="ACTION" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Inspection_Actions</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="317" y="283" width="226" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Inspection_Type</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="332" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="332" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="INSPECTION TYPE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="332" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="INSPECTION TYPE" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="332" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>InspectionTypeSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="332" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Inspection_Type</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                    <Field Source="INSPECTION TYPE" Dest="INSPECTION_TYPE" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Inspection_Type</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="54" width="237" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Inspection_Grades</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="if isnull([GRADE]) then &quot;X&quot; else [GRADE] endif" field="GRADE" size="1" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="GRADE" selected="True" type="V_String" size="1" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="GRADE" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>GradeSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Inspection_Grades</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="GradeSK" Dest="GradeSK" />
+                    <Field Source="GRADE" Dest="GRADE" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Inspection_Grades</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="200" width="203" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Critical_Flag</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="248" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="248" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRITICAL FLAG" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="248" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="CRITICAL FLAG" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="248" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>Critical_Flag_SK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="248" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Critical_Flag</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="Critical_Flag_SK" Dest="CRITICAL_FLAG_SK" />
+                    <Field Source="CRITICAL FLAG" Dest="CRITICAL_FLAG" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Critical_Flag</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="162" width="193" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_NYC_Addresses</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="BBL" selected="True" />
+                <SelectField field="BIN" selected="True" />
+                <SelectField field="BORO" selected="True" />
+                <SelectField field="BUILDING" selected="True" />
+                <SelectField field="Census Tract" selected="True" />
+                <SelectField field="Community Board" selected="True" />
+                <SelectField field="Council District" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="NTA" selected="True" />
+                <SelectField field="STREET" selected="True" />
+                <SelectField field="ZIPCODE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="BBL" />
+                <Field field="BIN" />
+                <Field field="BORO" />
+                <Field field="BUILDING" />
+                <Field field="Census Tract" />
+                <Field field="Community Board" />
+                <Field field="Council District" />
+                <Field field="Latitude" />
+                <Field field="Longitude" />
+                <Field field="NTA" />
+                <Field field="STREET" />
+                <Field field="ZIPCODE" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>AddressSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Addresses</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="AddressSK" Dest="AddressSK" />
+                    <Field Source="BBL" Dest="BBL" />
+                    <Field Source="BIN" Dest="BIN" />
+                    <Field Source="BORO" Dest="BORO" />
+                    <Field Source="BUILDING" Dest="BUILDING" />
+                    <Field Source="Census Tract" Dest="Census_Tract" />
+                    <Field Source="Community Board" Dest="Community_Board" />
+                    <Field Source="Council District" Dest="Council_District" />
+                    <Field Source="Latitude" Dest="Latitude" />
+                    <Field Source="Longitude" Dest="Longitude" />
+                    <Field Source="NTA" Dest="NTA" />
+                    <Field Source="STREET" Dest="STREET" />
+                    <Field Source="ZIPCODE" Dest="ZIPCODE" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Delete</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Addresses</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="if isnull([BORO]) then &quot;No Boro&quot; else [BORO] endif" field="BORO" size="13" type="V_WString" />
+                <FormulaField expression="if isnull([BIN]) then 0000 else [BIN] endif" field="BIN" size="4" type="Int32" />
+                <FormulaField expression="if isnull([BBL]) then 00000000 else [BBL] endif" field="BBL" size="8" type="Int64" />
+                <FormulaField expression="if isnull([NTA]) then &quot;N/A&quot; else [NTA] endif&#xA;" field="NTA" size="4" type="WString" />
+                <FormulaField expression="if isnull([Community Board]) then 0 else [Community Board] endif" field="Community Board" size="2" type="Int16" />
+                <FormulaField expression="if isnull([Council District]) then &quot;NA&quot; else [Council District] endif" field="Council District" size="2" type="WString" />
+                <FormulaField expression="if isnull([Census Tract]) then &quot;N/A&quot; else [Census Tract] endif" field="Census Tract" size="6" type="WString" />
+                <FormulaField expression="if isnull([Latitude]) then 0.0 else [Latitude] endif" field="Latitude" size="8" type="Double" />
+                <FormulaField expression="if isnull([Longitude]) then 0 else [Longitude] endif" field="Longitude" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="318" y="128" width="178" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DIM_NYC_Cuisine</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkFlowDirectory" size="1073741823" type="V_WString" />
+                <FormulaField expression="if isnull([CUISINE DESCRIPTION]) then &quot;No Description&quot; else [CUISINE DESCRIPTION] endif" field="CUISINE DESCRIPTION" size="100" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CUISINE DESCRIPTION" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="450" y="188" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="CUISINE DESCRIPTION" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="666" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>Cuisine_Description_SK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=localhost|||Dim_NYC_Cuisine</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <SpatialObjSize>8000</SpatialObjSize>
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="Cuisine_Description_SK" Dest="CUISINE_DESCRIPTION_SK" />
+                    <Field Source="CUISINE DESCRIPTION" Dest="CUISINE_DESCRIPTION" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkFlowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkFlowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=localhost
+Query=Dim_NYC_Cuisine</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Unique" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Unique" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Unique" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Unique" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Unique" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Unique" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_DIM_Integration</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="28b9abff-f9d2-4901-86ea-d913e8d916f1" />
+      <Telemetry>
+        <PreviousWorkflowId value="63278f2e-d774-44f3-a015-dd04d0df20ba" />
+        <OriginWorkflowId value="63278f2e-d774-44f3-a015-dd04d0df20ba" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOHMH_New_York_City_Restaurant_Inspection_Results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="DBA" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BORO" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BUILDING" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="STREET" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="ZIPCODE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="PHONE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="CUISINE DESCRIPTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="INSPECTION DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="ACTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="VIOLATION CODE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="VIOLATION DESCRIPTION" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="CRITICAL FLAG" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="SCORE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="GRADE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="GRADE DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="RECORD DATE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="INSPECTION TYPE" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Community Board" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Council District" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Census Tract" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BIN" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="BBL" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="NTA" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+            <Field name="Location Point" size="254" source="File: C:\Users\PrathameshW\Downloads\DOHMH_New_York_City_Restaurant_Inspection_Results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="270" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="270" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CAMIS=True,DBA=True,BORO=True,BUILDING=True,STREET=True,ZIPCODE=True,PHONE=True,CUISINE DESCRIPTION=True,INSPECTION DATE=True,ACTION=True,VIOLATION CODE=True,VIOLATION DESCRIPTION=True,CRITICAL FLAG=True,SCORE=True,GRADE=True,GRADE DATE=True,RECORD DATE=True,INSPECTION TYPE=True,Latitude=True,Longitude=True,Community Board=True,Council District=True,Census Tract=True,BIN=True,BBL=True,NTA=True,Location Point=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_24444_3ec0cbaaa4ae034eb60d31ac98babad9_\Engine_24444_65f029b8059819458aaf0642f22ef98a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_24444_3ec0cbaaa4ae034eb60d31ac98babad9_\Engine_24444_fecd4e25caba3246a9e5a8ca704c3ee5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_24444_3ec0cbaaa4ae034eb60d31ac98babad9_\Engine_24444_b956a347e1806841b9667deda7185dd8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_24444_3ec0cbaaa4ae034eb60d31ac98babad9_\Engine_24444_7d90ed24723bfa4fb766c2bf9369ec3a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRATHA~1\AppData\Local\Temp\Engine_24444_3ec0cbaaa4ae034eb60d31ac98babad9_\Engine_24444_a5cceb46613da74aaf956b39c1a2f2c8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="18" y="90" width="192" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>NYC Data Profiling</Text>
+          <Font name="Arial" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="Aqua" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_Data_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8daa4fe7-c639-4902-8410-3a58201dfd14" />
+      <Telemetry>
+        <PreviousWorkflowId value="bcfb5fa1-611c-49a7-a2be-beacc82bdfd6" />
+        <OriginWorkflowId value="bcfb5fa1-611c-49a7-a2be-beacc82bdfd6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
